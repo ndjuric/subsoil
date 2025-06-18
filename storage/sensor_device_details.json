@@ -1,0 +1,6 @@
+{
+    "port": "/dev/ttyUSB0",
+    "slave_address": 1,
+    "baudrate": 4800,
+    "timeout": 1.0
+}

@@ -1,0 +1,14 @@
+click==8.2.1
+dotenv==0.9.9
+markdown-it-py==3.0.0
+mdurl==0.1.2
+minimalmodbus==2.1.1
+Pygments==2.19.1
+pyserial==3.5
+python-dotenv==1.1.0
+pyudev==0.24.3
+rich==14.0.0
+shellingham==1.5.4
+-e git+ssh://git@github.com/ndjuric/subsoil.git@63df170b099b3e42d2e2609083c0fed4df311124#egg=subsoil
+typer==0.16.0
+typing_extensions==4.14.0

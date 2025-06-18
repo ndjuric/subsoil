@@ -1,0 +1,18 @@
+[project]
+name = "subsoil"
+version = "0.1.0"
+description = "Soil sensor data reader via RS485/Modbus."
+authors = [{ name = "Nikola Djurić", email = "nikola@djuric.dev" }]
+dependencies = [
+    "minimalmodbus",
+    "pyserial",
+    "typer[all]"  # for CLI
+]
+requires-python = ">=3.10"
+
+[project.scripts]
+subsoil = "subsoil.__main__:app"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
